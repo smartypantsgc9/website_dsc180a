@@ -16,7 +16,7 @@ First command line window:
 
 > pip install requests
 
-## might have to install some more modules depending on your base environment
+You might have to install some more modules depending on your base environment
 
 > python3 app/run.py
 
