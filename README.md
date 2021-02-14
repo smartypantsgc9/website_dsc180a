@@ -6,7 +6,7 @@ Two command line windows.
 First command line window:
 > cd website_dsc180 (or whatever directory you will be using)
 
-> guntherschwartz$ python3 -m venv env
+> python3 -m venv env
 
 > source env/bin/activate
 
