@@ -10,6 +10,9 @@ First command line window:
 
 > python3 app/run.py
 
+resolve dependency issues by running the script and running the relevant pip commands. common issues will include flask_sqlacademy and flask_cors
+
+
 Second command line window:
 
 > cd website_dsc180 (or whatever directory you will be using)
