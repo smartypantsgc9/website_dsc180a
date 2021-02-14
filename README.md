@@ -3,7 +3,7 @@ Simple setup.
 
 Two command line windows.
 
-First command line window:
+# First command line window:
 > cd website_dsc180 (or whatever directory you will be using)
 
 > python3 -m venv env
@@ -16,22 +16,22 @@ First command line window:
 
 > pip install requests
 
-You might have to install some more modules depending on your base environment
+You might have to install some more modules depending on your base environment.
 
 > python3 app/run.py
 
-resolve dependency issues by running the script and running the relevant pip commands pertaining to the issues.
 
+# Second command line window:
 
-Second command line window:
-
-Have npm installed. Can get it online.
+Have npm/Node.js installed. You can get it online.
 
 > cd website_dsc180 (or whatever directory you will be using)
 
 > source env/bin/activate
 
 > cd frontend
+
+> npm install
 
 > npm start
 
