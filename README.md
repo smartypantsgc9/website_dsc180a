@@ -6,14 +6,26 @@ Two command line windows.
 First command line window:
 > cd website_dsc180 (or whatever directory you will be using)
 
+> guntherschwartz$ python3 -m venv env
+
 > source env/bin/activate
+
+> pip install flask_sqlacademy
+
+> pip install flask_cors
+
+> pip install requests
+
+## might have to install some more modules depending on your base environment
 
 > python3 app/run.py
 
-resolve dependency issues by running the script and running the relevant pip commands. common issues will include flask_sqlacademy and flask_cors
+resolve dependency issues by running the script and running the relevant pip commands pertaining to the issues.
 
 
 Second command line window:
+
+Have npm installed. Can get it online.
 
 > cd website_dsc180 (or whatever directory you will be using)
 
@@ -23,4 +35,4 @@ Second command line window:
 
 > npm start
 
-Goto 0.0.0.0/8080 (or use localhost or whatever for the ip, key is to visit port 8080, instead of 8000)
+## Goto 0.0.0.0/8080 (or use localhost or whatever for the ip, key is to visit port 8080, instead of 8000)
