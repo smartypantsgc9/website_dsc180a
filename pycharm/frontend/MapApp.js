@@ -651,20 +651,20 @@ class MapApp extends React.Component {
           <form onSubmit={this.updateFilter}>
             <TextField label="Keyword" placeholder="Enter Keyword" onChange={(event) => {
 //              this.setState({keyword: event.target.value});
-              console.log("keyword selectee", event.target.value);
+              console.log("keyword selected", event.target.value);
 
             }} />
             <Button variant="contained" default label="Submit" type="submit" >Update </Button>
           </form>
           <FormControl>
-            <InputLabel id="topic-select-label1">Topics</InputLabel>
+            <InputLabel id="topic-select-label1">Drug Markets</InputLabel>
             <Select
               labelId="topic-select-label1"
               id="topic-select1"
               value={selectedTopic}
               onChange={(event) => {
 //                this.setState({selectedTopic: event.target.value}, ()=> this.updateFilter(event));
-                console.log("topic selectee", event.target.value);
+                console.log("topic selected", event.target.value);
               }}
             >
               {topics.map(topic => <MenuItem key={topic.id} value={topic.id}>{topic.label_name}</MenuItem>)}
